@@ -17,12 +17,12 @@ Detect if somone has diabetes using machine learning and pyhton!
 """)
 
 # open and display an image
-image = Image.open('/hello/webapp.png')
+image = Image.open('webapp.png')
 st.image(image, caption='ML',use_column_width=True)
 
 
-# Get the data
-df = pd.read_csv('/hello/datasets_4511_6897_diabetes.csv')
+# Get the data!
+df = pd.read_csv('diabetes.csv')
 
 # Set a subheader
 st.subheader('Data Information')
